@@ -1,4 +1,4 @@
-# Introduction 
+# Introduction to AI
 The AI Provided in the kit is really cool and you should learn
 how to create your own AI system
 
