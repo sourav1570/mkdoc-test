@@ -1,0 +1,28 @@
+site_name: Sourav Jain
+docs_dir: docs
+use_directory_urls: false  # Set to true if you want directory-style URLs
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.copy.code
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: black
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: black
+      accent: lime
