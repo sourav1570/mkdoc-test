@@ -1,28 +1,41 @@
-site_name: Sourav Jain
+site_name: Mobile Action Kit
+nav:
+  - Getting Started: AISystem.md
+  - Player:
+    - PlayerSetup: AISystem.md
+    - WeaponSetup: AISystem.md
+  - Humanoid AI:
+    - Setting Up Ragdoll: Index.md
+    - Covers: Index.md
+  - Shop: Shop.md
 docs_dir: docs
-use_directory_urls: false  # Set to true if you want directory-style URLs
+use_directory_urls: false
 theme:
   name: material
+  logo: Images/screen.png
+  favicon: Images/screen.png
+  custom_dir: docs/overrides
+  nav_style: default  # Set to 'default' for left-side navigation
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
     - search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.copy.code
+    - prev_next_buttons
   language: en
   palette:
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: black
-      accent: purple
+      primary: red
+      accent: red
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: black
-      accent: lime
+      primary: yellow
+      accent: yellow
+plugins:
+  - search
+  - print-site

@@ -1,21 +1,22 @@
-# Introduction to AI
-The AI Provided in the kit is really cool and you should learn
-how to create your own AI system
+# 🎮👤 Player
 
-## PathFinding
-This section is really important
-[Tutorials For Ai](https://www.youtube.com/watch?v%253Djpeh1WorrWM)
+## Weapon Setup
+The AI provided in the kit is really cool, and you should learn how to create your own AI system.
 
-## Emergency cover 
-This section is about emergency behaviour 
+### Setting up Pistol
+This section is essential.
+[Tutorials For AI](https://www.youtube.com/watch?v=jpeh1WorrWM)
 
-![cool](https://play-lh.googleusercontent.com/N5OhX0Em8Uuu5B4JaXKZmwzy-0UUfGiF3OjDxdGic1m49DJyNujFgPFZSa0AJf4hiIKP)
+#### Emergency Cover
+This section is about emergency behavior.
 
-## Combat covers 
-This section is about combat behaviour
-[Great](https://www.youtube.com/watch?v%253Djpeh1WorrWM)
+![Cool](https://play-lh.googleusercontent.com/N5OhX0Em8Uuu5B4JaXKZmwzy-0UUfGiF3OjDxdGic1m49DJyNujFgPFZSa0AJf4hiIKP)
 
-## My Images
-![MyFavorite](Images/screen.png)
-![All great](Images/Test.png)
-<video src="Videos/AiConversation.mp4" controls title="ConversationSound"></video>
+#### Combat Covers
+This section is about combat behavior.
+[Great](https://www.youtube.com/watch?v=jpeh1WorrWM)
+
+#### Emergency Covers
+This is emergency cover
+
+
