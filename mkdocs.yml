@@ -38,4 +38,3 @@ theme:
       accent: yellow
 plugins:
   - search
-  - print-site
