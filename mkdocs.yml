@@ -1,13 +1,18 @@
-site_name: Mobile Action Kit
+site_name: DOCUMENTATION
 nav:
-  - Getting Started: AISystem.md
-  - Player:
-    - PlayerSetup: AISystem.md
-    - WeaponSetup: AISystem.md
-  - Humanoid AI:
-    - Setting Up Ragdoll: Index.md
-    - Covers: Index.md
-  - Shop: Shop.md
+  - MOBILE ACTION KIT:
+    - Player:
+       - SettingUpPlayer: Index.md
+       - SettingUpWeapon: AISystem.md
+    - Humanoid AI:
+       - Setting Up Ragdoll: Index.md
+       - Covers: Index.md
+    - Shop: Shop.md
+  - HELICOPTER:
+    - Basic Setup:
+       - Animation: Helibase.md
+       - Collider: AISystem.md
+  - SUPPORT: Support.md
 docs_dir: docs
 use_directory_urls: false
 theme:
@@ -15,8 +20,9 @@ theme:
   logo: Images/screen.png
   favicon: Images/screen.png
   custom_dir: docs/overrides
-  nav_style: default  # Set to 'default' for left-side navigation
+  nav_style: default
   features:
+    - navigation.tabs
     - search.highlight
     - content.tabs.link
     - content.code.annotation
@@ -28,13 +34,24 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: red
-      accent: red
+      primary: blue
+      accent: blue
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: yellow
-      accent: yellow
+      primary: red
+      accent: red
 plugins:
   - search
+extra_css:
+  - overrides/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://github.com/james-willett  
+    - icon: fontawesome/solid/envelope
+      link: https://github.com/james-willett  
+copyright: |
+   &copy; 2024<a href="https://github.com/MobileActionKit" target="_blank" rel="noopener">MobileActionKit</a>      
+

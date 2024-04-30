@@ -17,7 +17,4 @@ This section is about combat behavior.
 [Great](https://www.youtube.com/watch?v=jpeh1WorrWM)
 
 #### Emergency Covers
-![My Favorite](Images/screen.png)
-![All Great](Images/Test.png)
 
-<video src="Videos/AiConversation.mp4" controls title="Conversation Sound"></video>
