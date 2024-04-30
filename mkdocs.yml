@@ -2,7 +2,7 @@ site_name: DOCUMENTATION
 nav:
   - MOBILE ACTION KIT:
     - Player:
-       - SettingUpPlayer: Index.md
+       - SettingUpPlayer: AISystem.md
        - SettingUpWeapon: AISystem.md
     - Humanoid AI:
        - Setting Up Ragdoll: Index.md
@@ -11,7 +11,7 @@ nav:
   - HELICOPTER:
     - Basic Setup:
        - Animation: Helibase.md
-       - Collider: AISystem.md
+       - Collider: Helibase.md
   - SUPPORT: Support.md
 docs_dir: docs
 use_directory_urls: false
