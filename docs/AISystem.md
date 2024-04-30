@@ -1,7 +1,7 @@
 # 🎮👤<span style="color:White; font-weight:bold;">PLAYER</span>
 
 ## Weapon Setup
-The AI provided in the kit is really cool, and you should learn how to create your own AI system.
+The AI provided in the kit is really cool, and you should learn how to create your own AI system.Hello Mr.Sourav jain 
 
 ### Setting up Pistol
 This section is essential.

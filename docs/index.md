@@ -1,7 +1,7 @@
 # 🤖 Humanoid Ai
 
 ## 🤖 Setting Up Ragdoll
-The AI provided in the kit is really cool, and you should learn how to create your own AI system.
+The AI provided in the kit is really cool, and you should learn how to create your own AI system.Hello Sourav
 
 ### Getting Started
 This section is essential.
