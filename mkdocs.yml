@@ -5,8 +5,8 @@ nav:
        - SettingUpPlayer: AISystem.md
        - SettingUpWeapon: AISystem.md
     - Humanoid AI:
-       - Setting Up Ragdoll: Index.md
-       - Covers: Index.md
+       - Getting Started: HumanoidAiGetStarted.md
+       - Setting Up The Agent: HumanoidAiSettingUpAgent.md
     - Shop: Shop.md
   - HELICOPTER:
     - Basic Setup:
