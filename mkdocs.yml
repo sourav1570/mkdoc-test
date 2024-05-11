@@ -7,6 +7,15 @@ nav:
     - Humanoid AI:
        - Getting Started: HumanoidAiGetStarted.md
        - Setting Up The Agent: HumanoidAiSettingUpAgent.md
+       - AI Agent Tactical Interactions: HumanoidAITacticalInteractions.md
+       - Head Rotation Behaviour: HumanoidAIHeadRotation.md
+       - Stationed & Scanning Behaviour: HumanoidAIScanningBehaviour.md
+       - Wander Behaviour: HumanoidAIWanderBehaviour.md
+       - Patrol Behaviour: HumanoidAIPatrolBehaviour.md
+       - Stationed Shoot Posture Behaviour: HumanoidAIStationedShootPosture.md
+       - Agent Health : HumanoidAIHealth.md
+       - Pursue Behaviour : HumanoidAIPursue.md
+       - Post Combat Scan : HumanoidAIPostCombatScan.md
     - Shop: Shop.md
   - HELICOPTER:
     - Basic Setup:
@@ -34,14 +43,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: blue
-      accent: blue
+      primary: white
+      accent: white
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: red
-      accent: red
+      primary: black
+      accent: black
 plugins:
   - search
 extra_css:
