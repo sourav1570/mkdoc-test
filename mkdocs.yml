@@ -16,6 +16,8 @@ nav:
        - Agent Health : HumanoidAIHealth.md
        - Pursue Behaviour : HumanoidAIPursue.md
        - Post Combat Scan : HumanoidAIPostCombatScan.md
+       - Strafing : HumanoidAIStrafing.md
+       - Charging Behaviour : HumanoidAICharging.md
     - Shop: Shop.md
   - HELICOPTER:
     - Basic Setup:
@@ -62,5 +64,4 @@ extra:
     - icon: fontawesome/solid/envelope
       link: https://github.com/james-willett  
 copyright: |
-   &copy; 2024<a href="https://github.com/MobileActionKit" target="_blank" rel="noopener">MobileActionKit</a>      
-
+   &copy; 2024<a href="https://github.com/MobileActionKit" target="_blank" rel="noopener">MobileActionKit</a>
