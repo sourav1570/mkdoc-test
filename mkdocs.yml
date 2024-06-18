@@ -1,4 +1,4 @@
-site_name: DOCUMENTATION
+site_name: Mobile Action Kit Documentation
 nav:
   - MOBILE ACTION KIT:
     - Player:
@@ -18,18 +18,32 @@ nav:
        - Post Combat Scan : HumanoidAIPostCombatScan.md
        - Strafing : HumanoidAIStrafing.md
        - Charging Behaviour : HumanoidAICharging.md
+       - Humanoid Body Hits : HumanoidAIBodyHits.md
+       - Melee Attacks : HumanoidAIMelee.md
+       - Weapon Firing Behaviour Part-1 : HumanoidAIWeaponFiringBehaviour_Part1.md 
+       - Weapon Firing Behaviour Part-2 : HumanoidAIWeaponFiringBehaviour_Part2.md 
+       - Weapon Firing Behaviour Part-3 : HumanoidAIWeaponFiringBehaviour_Part3.md 
+       - Weapon Firing Behaviour Part-4 : HumanoidAIWeaponFiringBehaviour_Part4.md 
+       - Weapon Firing Behaviour Part-5 : HumanoidAIWeaponFiringBehaviour_Part5.md 
+       - AI Firing Points Part-1 : AIFiringPoint_Part1.md 
+       - AI Firing Points Part-2 : AIFiringPoint_Part2.md 
+       - AI Crouch Hiding Cover Part-1 : AI_CrouchHidingCover.md 
+       - AI Crouch Firing Cover Part-2 : AI_CrouchFiringCover.md 
+       - AI Stand Hiding Cover Part-3 : AI_StandFiringCover.md 
+       - AI Stand Firing Cover Part-4 : AI_StandHidingCover.md 
+       - AI Covers Fields Explanation Part-5 : AI_Covers_Explanation.md 
     - Shop: Shop.md
-  - HELICOPTER:
-    - Basic Setup:
-       - Animation: Helibase.md
-       - Collider: Helibase.md
+  # - HELICOPTER:
+  #   - Basic Setup:
+  #      - Animation: Helibase.md
+  #      - Collider: Helibase.md
   - SUPPORT: Support.md
 docs_dir: docs
 use_directory_urls: false
 theme:
   name: material
-  logo: Images/screen.png
-  favicon: Images/screen.png
+  logo: Images/Logo.png
+  favicon: Images/Logo.png
   custom_dir: docs/overrides
   nav_style: default
   features:
@@ -45,14 +59,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: white
+      primary: black
       accent: white
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: black
-      accent: black
+      primary: deep blue
+      accent:  black
 plugins:
   - search
 extra_css:
