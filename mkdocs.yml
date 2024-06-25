@@ -2,7 +2,7 @@ site_name: Mobile Action Kit Documentation
 nav:
   - MOBILE ACTION KIT:
     - Player:
-       - SettingUpPlayer: AISystem.md
+       - SettingUpPlayer: HumanoidAiGetStarted.md
        - SettingUpWeapon: AISystem.md
     - Humanoid AI:
        - Getting Started: HumanoidAiGetStarted.md
@@ -32,6 +32,10 @@ nav:
        - AI Stand Hiding Cover Part-3 : AI_StandFiringCover.md 
        - AI Stand Firing Cover Part-4 : AI_StandHidingCover.md 
        - AI Covers Fields Explanation Part-5 : AI_Covers_Explanation.md 
+       - AI Grenade Setup Part-1 : AI_GrenadeSetup.md
+       - AI Grenade Throw Part-2 : AI_GrenadeThrow.md
+       - AI Grenade Alerts Part-3 : AI_GrenadeAlerts.md
+       - AI Grenade No Throw Area Part-4 : AI_GrenadeNoThrowArea.md
     - Shop: Shop.md
   # - HELICOPTER:
   #   - Basic Setup:
