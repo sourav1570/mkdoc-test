@@ -36,6 +36,13 @@ nav:
        - AI Grenade Throw Part-2 : AI_GrenadeThrow.md
        - AI Grenade Alerts Part-3 : AI_GrenadeAlerts.md
        - AI Grenade No Throw Area Part-4 : AI_GrenadeNoThrowArea.md
+       - AI Leader & Followers Part-1 : AILeader&Follower_Part1.md
+       - AI Leader & Followers Part-2 : AILeader&Follower_Part2.md
+       - Player Leader & AI Followers Part-3 : PlayerLeader&Follower_Part3.md
+       - AI Emergency State (Zig Zag Advancing) Part-1 : AIEmergencyState_ZigZagAdvancing_Part1.md
+       - AI Emergency State (Advancing Between Covers) Part-2 : AIEmergencyState_AdvancingBetweenCovers_Part2.md
+       - AI Emergency State (Emergency Shooting) Part-3 : AIEmergencyState_EmergencyShooting_Part3.md
+       - AI Emergency State (Fleeing Behaviour) Part-4 : AIEmergencyState_AIFleeingBehaviour_Part4.md
     - Shop: Shop.md
   # - HELICOPTER:
   #   - Basic Setup:
