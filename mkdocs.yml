@@ -3,7 +3,7 @@ nav:
   - MOBILE ACTION KIT:
     - Player:
        - SettingUpPlayer: HumanoidAiGetStarted.md
-       - SettingUpWeapon: AISystem.md
+       - SettingUpWeapon: HumanoidAiGetStarted.md
     - Humanoid AI:
        - Getting Started: HumanoidAiGetStarted.md
        - Setting Up The Agent: HumanoidAiSettingUpAgent.md
@@ -43,6 +43,13 @@ nav:
        - AI Emergency State (Advancing Between Covers) Part-2 : AIEmergencyState_AdvancingBetweenCovers_Part2.md
        - AI Emergency State (Emergency Shooting) Part-3 : AIEmergencyState_EmergencyShooting_Part3.md
        - AI Emergency State (Fleeing Behaviour) Part-4 : AIEmergencyState_AIFleeingBehaviour_Part4.md
+       - AI Emergency State (Friendly Chain Reaction) Part-5 : AIEmergencyState_FriendlyChainReaction_Part5.md
+       - AI Emergency State (Friendly Death & Pavement Effect Emergency) Part-6 : AIEmergencyState_FriendlyDeath&PavementEffectEmergency_Part6.md
+       - AI Emergency State (Other Scenarios) Part-7 : AIEmergencyState_OtherScenarios_Part7.md
+       - AI DeadBody Investigation : AIInvestigationNearTheDeadBody.md
+       - AI FootStep Sounds Part-1 : AIFootstepSounds.md
+       - AI Recurring & Non Recurring Sounds Part-2 : AIRecurringAndNonRecurringSounds.md
+       - AI Non Combat Chatter Part-3 : AINonCombatChatter.md
     - Shop: Shop.md
   # - HELICOPTER:
   #   - Basic Setup:
