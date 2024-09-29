@@ -2,7 +2,7 @@
 hide:
   - toc
 --- -->
-# <span font-weight:bold;">Getting Started With Humanoid Ai Agent</span>
+# <span font-weight:bold;">Getting Started With Humanoid AI Agent</span>
 
 <div class="video-container">
     <iframe width="700" height="405" src="https://www.youtube.com/embed/hVD0wtHb4UM?si=PUNwfF04UUhETk_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
