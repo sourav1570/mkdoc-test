@@ -2,8 +2,14 @@ site_name: Mobile Action Kit Documentation
 nav:
   - MOBILE ACTION KIT:
     - Player:
-       - SettingUpPlayer: HumanoidAiGetStarted.md
-       - SettingUpWeapon: HumanoidAiGetStarted.md
+       - Player Setup: PlayerSetup.md
+       - Minimap Setup: PlayerMiniMapSetup.md
+       - Player Health: PlayerHealthSetup.md
+       - Footstep Sounds Based On Surfaces: PlayerFootstepSoundsBasedOnSurfaces.md
+       - PlayerWeaponSetup Part-1: PlayerWeaponSetup_Part1.md
+       - PlayerWeaponBobbing,Recoil&Crosshair Part-2: PlayerWeaponSetupBobbing,Recoil&Crosshair_Part2.md
+       - PlayerWeaponShootingFeatures Part-3: PlayerWeaponShootingFeatures_Part3.md
+       - PlayerWeaponProjectileShooting Part-4: PlayerWeaponProjectileShooting_Part4.md 
     - Humanoid Soldier AI:
        - Getting Started: HumanoidAiGetStarted.md
        - Setting Up The Agent: HumanoidAiSettingUpAgent.md
@@ -66,6 +72,12 @@ nav:
        - Wander Behaviour: HumanoidAIZombieWanderBehaviour.md
        - Patrol Behaviour: HumanoidAIZombiePatrolBehaviour.md
        - Charging & Melee Attack Behaviour : HumanoidAIZombieCharging&Melee.md
+       - Zombie Body Hits : ZombieBodyHits.md
+       - Pursue behaviour : ZombiePursue.md
+       - Health : ZombieHealth.md
+       - FootStep Sounds : ZombieFootstepSounds.md
+       - Setting up Zombie Voices : ZombieVoices.md
+       - Sound Alerts : ZombieSoundAlerts.md
     - Shop: Shop.md
   # - HELICOPTER:
   #   - Basic Setup:

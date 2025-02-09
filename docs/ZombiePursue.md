@@ -1,40 +1,40 @@
-# <span font-weight:bold;">Pursue Behaviour</span>
+# <span font-weight:bold;">Zombie Pursue</span>
 
 <div class="video-container">
     <iframe width="700" height="405" src="https://www.youtube.com/embed/hVD0wtHb4UM?si=PUNwfF04UUhETk_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Introduction
-This video will guide you on how to achieve AI agent pursue behaviour in case of enemy lost.There are 2 types of pursue behaviour - Stationed and Approaching.
+This video will guide you on how to achieve zombie pursue behaviour in case of enemy lost.There are 2 types of pursue behaviour - Stationed and Approaching.
 
 ### Pursue Type : Stationed
 
-If the selected option is 'Enable Stationed Enemy Pursue' than this humanoid AI agent will be stationed while staring at the last enemy known position for some seconds specified
+If the selected option is 'Enable Stationed Enemy Pursue' than this zombie will be stationed while staring at the last enemy known position for some seconds specified
 in the Min/Max Stare time fields.
 
-<img src="Images/StationedPursue.png" alt="alt text" width="460" height="360">
+<img src="Images/ZombiePursue_Stationed.png" alt="alt text" width="460" height="360">
 <img src="Images/StareTime.png" alt="alt text" width="460" height="360">
 
 ### Pursue Type : Approaching
 
-If the selected option is 'Enable Approaching Enemy Pursue' than this humanoid AI agent will be approaching at the last enemy known position.
-After the Enemy Lost, 'Humanoid AI' agent will first stare at the enemy last known position and then after the stare time is completed agent will start approaching towards the last enemy known position.
+If the selected option is 'Enable Approaching Enemy Pursue' than this zombie will be approaching at the last enemy known position.
+After the Enemy Lost, 'Zombie'  will first stare at the enemy last known position and then after the stare time is completed agent will start approaching towards the last enemy known position.
 
-<img src="Images/ApproachingPursue.png" alt="alt text" width="460" height="360">
+<img src="Images/ZombiePursue_Approaching.png" alt="alt text" width="460" height="360">
 
 Let's talk about three scenarios that can be possible:
 
 ### Scenario 1 : NavMeshPath Complete
 
-When the NavMeshPath to the enemy is completed the 'Humanoid AI' agent will be sprinting,running and than walking towards the enemy last know coordinate based on the distance.
+When the NavMeshPath to the enemy is completed the 'Zombie' will be sprinting,running and than walking towards the enemy last know coordinate based on the distance.
 
 ### Scenario 2 : NavMeshPath Partial
 
-When the NavMeshPath to the enemy is partial(Where the target is on the roof) the 'Humanoid AI' agent will create the closest point on the NavMesh from the current target position which is reachable and will be sprinting,running and than walking towards it based on the distance.
+When the NavMeshPath to the enemy is partial(Where the target is on the roof) the 'Zombie' agent will create the closest point on the NavMesh from the current target position which is reachable and will be sprinting,running and than walking towards it based on the distance.
 
 ### Scenario 3 : NavMeshPath Invalid
 
-When the NavMeshPath to the enemy is invalid(Where both the target and the agent is on the opposite sides of buildings) the 'Humanoid AI' agent will make sure to only stare at the enemy current position until the combat state restarted.
+When the NavMeshPath to the enemy is invalid(Where both the target and the agent is on the opposite sides of buildings) the 'Zombie' agent will make sure to only stare at the enemy current position until the combat state restarted.
 
 <img src="Images/AIPursue.png" alt="alt text" width="460" height="360">
 
