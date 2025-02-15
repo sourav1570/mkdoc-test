@@ -1,15 +1,22 @@
-site_name: Mobile Action Kit Documentation
+site_name: DOCUMENTATION
 nav:
   - MOBILE ACTION KIT:
+    - Get Started: GetStarted.md
     - Player:
        - Player Setup: PlayerSetup.md
        - Minimap Setup: PlayerMiniMapSetup.md
        - Player Health: PlayerHealthSetup.md
        - Footstep Sounds Based On Surfaces: PlayerFootstepSoundsBasedOnSurfaces.md
-       - PlayerWeaponSetup Part-1: PlayerWeaponSetup_Part1.md
-       - PlayerWeaponBobbing,Recoil&Crosshair Part-2: PlayerWeaponSetupBobbing,Recoil&Crosshair_Part2.md
-       - PlayerWeaponShootingFeatures Part-3: PlayerWeaponShootingFeatures_Part3.md
-       - PlayerWeaponProjectileShooting Part-4: PlayerWeaponProjectileShooting_Part4.md 
+       - Player Weapon Setup Part-1: PlayerWeaponSetup_Part1.md
+       - Player Weapon Bobbing,Recoil & Crosshair Part-2: PlayerWeaponSetupBobbing,Recoil&Crosshair_Part2.md
+       - Player Weapon Shooting Features Part-3: PlayerWeaponShootingFeatures_Part3.md
+       - Player Weapon Projectile Shooting Part-4: PlayerWeaponProjectileShooting_Part4.md 
+       - Player Weapon Attachments: PlayerWeaponAttachments.md 
+       - Switching Player Weapons: PlayerWeaponSwitching.md 
+       - Create Pickup Weapon: PickupWeapon.md 
+       - Unique Hit Impact Effects: UniqueHitImpactEffectSpawner.md 
+       - Friendly Fire: FriendlyFire.md 
+       - Melee Attack: PlayerMeleeSetup.md 
     - Humanoid Soldier AI:
        - Getting Started: HumanoidAiGetStarted.md
        - Setting Up The Agent: HumanoidAiSettingUpAgent.md
@@ -105,13 +112,13 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: black
+      primary: white
       accent: white
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: deep blue
+      primary: black
       accent:  black
 plugins:
   - search
@@ -120,8 +127,8 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: https://github.com/james-willett  
+      link: https://discord.com/invite/BeGy5hhyNj
     - icon: fontawesome/solid/envelope
-      link: https://github.com/james-willett  
+      link: https://mail.google.com/
 copyright: |
-   &copy; 2024<a href="https://github.com/MobileActionKit" target="_blank" rel="noopener">MobileActionKit</a>
+   &copy; 2025 <a href="Mobile Action Kit" target="_blank" rel="noopener">MobileActionKit</a>
